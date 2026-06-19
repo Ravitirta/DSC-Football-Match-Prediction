@@ -123,12 +123,12 @@ output of the one before it.
 
 This project is divided into 6 modular stages to maintain code cleanliness and ensure experiment reproducibility. You can run each stage directly in your browser using Google Colab:
 1. **Data Preprocessing & Cleaning** 
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/notebooks/01_data_preprocessing.ipynb)
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/01_data_preprocessing.ipynb)
 2. **Feature Engineering**
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/notebooks/02_feature_engineering.ipynb)
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/02_feature_engineering.ipynb)
 3. **Model Training**
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/notebooks/03_model_training.ipynb)
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/03_model_training.ipynb)
 4. **Ensemble Evaluation**
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/notebooks/04_ensemble_evaluation.ipynb)
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/04_ensemble_evaluation.ipynb)
 5. **Dynamic Forecasting** 
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/notebooks/05_dynamic_forecasting.ipynb)
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/05_dynamic_forecasting.ipynb)
