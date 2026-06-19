@@ -117,3 +117,18 @@ output of the one before it.
   AW-MAE rather than a point estimate
 - Persist `state_2011.pkl`-style snapshots automatically at the end of each
   training run instead of rebuilding state from the cleaned CSV in notebook 05
+
+
+## Pipeline Architecture
+
+This project is divided into 6 modular stages to maintain code cleanliness and ensure experiment reproducibility. You can run each stage directly in your browser using Google Colab:
+1. **Data Preprocessing & Cleaning** 
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/notebooks/01_data_preprocessing.ipynb)
+2. **Feature Engineering**
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/notebooks/02_feature_engineering.ipynb)
+3. **Model Training**
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/notebooks/03_model_training.ipynb)
+4. **Ensemble Evaluation**
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/notebooks/04_ensemble_evaluation.ipynb)
+5. **Dynamic Forecasting** 
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Ravitirta/DSC-Football-Match-Prediction/blob/main/notebooks/05_dynamic_forecasting.ipynb)
