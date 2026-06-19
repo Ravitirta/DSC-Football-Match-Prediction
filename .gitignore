@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# CatBoost training logs (regenerated every run, not useful to commit)
+catboost_info/
+
+# Large derived/intermediate data — regenerate via the notebooks instead of committing
+data/train_final_ready_fix.csv
+data/train_final_ready_fix_v6_1.csv
+
+# Keep data/train.csv, data/test.csv, data/features_v6_1.json so the repo
+# runs out of the box without regenerating the synthetic dataset first.
+
+# OS
+.DS_Store
